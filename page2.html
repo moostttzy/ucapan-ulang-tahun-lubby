@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kepo yaa 😝</title>
+  <title>Kepo yaa 😋</title>
   <style>
     body {
-      font-family: "Comic Sans MS", cursive;
-      background: linear-gradient(to bottom right, #ffecf2, #ffe3ed);
-      color: #ff7fb8;
+      background: linear-gradient(180deg, #fff0f5, #ffe4ec);
+      font-family: 'Poppins', sans-serif;
+      color: #333;
       text-align: center;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      padding: 80px 20px;
     }
-    h1 { font-size: 2.3em; margin-bottom: 10px; }
-    p { font-size: 1.2em; }
+    h1 {
+      font-size: 2.2rem;
+      color: #ff6699;
+      animation: float 3s ease-in-out infinite;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
     button {
-      background-color: #ff9fc9;
-      color: white;
+      background-color: #ffb6c1;
       border: none;
-      padding: 12px 30px;
-      border-radius: 30px;
-      font-size: 1.1em;
-      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 25px;
+      color: white;
+      margin-top: 40px;
       cursor: pointer;
-      transition: transform 0.2s ease;
+      transition: 0.3s;
     }
     button:hover {
-      transform: scale(1.1);
-      background-color: #ff7fb8;
+      background-color: #ff8fab;
+    }
+    @keyframes float {
+      0%, 100% {transform: translateY(0);}
+      50% {transform: translateY(-8px);}
     }
   </style>
 </head>
 <body>
-  <h1>Hayooo kepo yaa 😝</h1>
-  <p>Udah terlanjur klik... lanjut aja deh 😳</p>
-  <button onclick="window.location.href='page3.html'">Lanjut yuk 💞</button>
+  <h1>Hayooo kepo yaa 😋</h1>
+  <p>Hehehe sabar dulu~ masih ada lanjutannya loh 💞</p>
+  <button onclick="location.href='page3.html'">Lanjut ➜</button>
 </body>
 </html>
