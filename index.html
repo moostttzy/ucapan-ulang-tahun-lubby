@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hai Lubbyyy 🎂💗</title>
+  <title>For Lubby 💗</title>
   <style>
     body {
-      font-family: "Comic Sans MS", cursive;
-      background: linear-gradient(to bottom right, #ffd6e8, #ffe6f2);
-      color: #ff6fa8;
+      background: linear-gradient(180deg, #ffd6e0, #fff0f5);
+      font-family: 'Poppins', sans-serif;
+      color: #333;
       text-align: center;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      padding: 80px 20px;
     }
-    h1 { font-size: 2.5em; margin-bottom: 10px; }
-    p { font-size: 1.2em; }
+    h1 {
+      font-size: 2.5rem;
+      color: #ff5c8d;
+      animation: fadeIn 2s ease;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      animation: fadeIn 3s ease;
+    }
     button {
-      background-color: #ff9fc9;
-      color: white;
+      background-color: #ffb6c1;
       border: none;
-      padding: 12px 30px;
-      border-radius: 30px;
-      font-size: 1.1em;
-      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 25px;
+      color: white;
+      margin-top: 40px;
       cursor: pointer;
-      transition: transform 0.2s ease;
+      transition: 0.3s;
     }
     button:hover {
-      transform: scale(1.1);
-      background-color: #ff7fb8;
+      background-color: #ff8fab;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(15px);}
+      to {opacity: 1; transform: translateY(0);}
     }
   </style>
 </head>
 <body>
-  <h1>Hai Lubbyyy 💗🎂</h1>
-  <p>Ada sesuatu buat kamu nih… 😳</p>
-  <button onclick="window.location.href='page2.html'">Klik aja deh 😝</button>
+  <h1>💌 Hai Lubbyyy 💗</h1>
+  <p>Ada sesuatu yang spesial buat kamu hari ini...</p>
+  <button onclick="location.href='page2.html'">Lihat yuk 💫</button>
 </body>
 </html>
